@@ -7,6 +7,7 @@ import {HeaderLayout} from "./Layouts/HeaderLayout";
 import Mycontent from "./Layouts/Mycontent";
 import {Footer} from "antd/es/layout/layout";
 import {Layout} from "antd";
+import {FormLayout} from "./Layouts/FormLayout";
 function App() {
   return (
       <Layout>
@@ -17,6 +18,7 @@ function App() {
           }}>
   <Mycontent />
           </div>
+          <FormLayout/>
   <Footer style={{ textAlign: 'center' }}>Guțanov Dorel</Footer>
         </Layout>
   );
