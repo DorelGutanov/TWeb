@@ -1,27 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css'
 
+import {HeaderLayout} from "./Layouts/HeaderLayout";
+import Mycontent from "./Layouts/Mycontent";
+import {Footer} from "antd/es/layout/layout";
+import {Layout} from "antd";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Nume/prenume:Guțanov/Dorel
-          <div></div>
-          Grupa:CR-192
-        </a>
-      </header>
-    </div>
+      <Layout>
+        <>
+      <HeaderLayout/>
+          </>
+          <div style={{ padding: '100px 50px 50px 50px'
+          }}>
+  <Mycontent />
+          </div>
+  <Footer style={{ textAlign: 'center' }}>Guțanov Dorel</Footer>
+        </Layout>
   );
 }
 
