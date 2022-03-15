@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/CustomCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/CustomCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layouts/FormLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/FormLayout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,11 @@
       <workItem from="1646046483692" duration="150000" />
       <workItem from="1646052488540" duration="5000" />
       <workItem from="1646052677083" duration="463000" />
-      <workItem from="1646503524384" duration="6786000" />
+      <workItem from="1646503524384" duration="7771000" />
+      <workItem from="1647011324093" duration="5825000" />
+      <workItem from="1647067847408" duration="3921000" />
+      <workItem from="1647265860832" duration="588000" />
+      <workItem from="1647345262042" duration="1249000" />
     </task>
     <servers />
   </component>

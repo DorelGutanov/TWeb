@@ -1,6 +1,6 @@
 import { Card, Col } from 'antd'
 //CustomCard
-function CustomCard({title, description}) {
+function CustomCard({title, description}:{title:string,description:string}) {
 
     return (
 
