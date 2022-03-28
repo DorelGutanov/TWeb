@@ -1,18 +1,24 @@
-import { Card, Col } from 'antd'
+import {Card, Col, Input} from 'antd'
+import { IContentModel} from "../interface/Interfaces";
+import {useRootStore} from "../index";
+import {observer} from "mobx-react-lite";
 //CustomCard
-function CustomCard({title, description}:{title:string,description:string}) {
+export const CustomCard=observer(({content}:{content:IContentModel}) => {
 
+    const {title,description,notite,changeNotes} =content
     return (
 
-        <Col span={8}>
-            <div style={{ paddingBottom: '8px',paddingTop:'8px'}}>
             <Card title={title} bordered={false}>
                 {description}
+                <Input value={notite}
+                       placeholder={notite}
+                       onChange={(e)=>changeNotes(e.target.value)}
+                />
             </Card>
-            </div>
-        </Col>
+
 
     )
 }
+)
 
-export default CustomCard
+

@@ -4,5 +4,10 @@ export const  ContentModel = types.model('ContentModel',{
     id:types.identifier,
     title:'',
     description:'',
-    seen:false
-})
+    seen:false,
+    notite:'',
+}).actions((self) => ({
+    changeNotes(value:string){
+        self.notite =value
+    }
+}))
