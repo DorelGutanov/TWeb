@@ -17,11 +17,11 @@ function App() {
           </>
           <div style={{ padding: '100px 50px 50px 50px'
           }}>
-  {/*<Mycontent />*/}
+  <Mycontent />
           </div>
       {/*<h1 style={{textAlign:'center'}}>My Form</h1>*/}
           {/*<FormLayout/>*/}
-  {/*<Footer style={{ textAlign: 'center' }}>Guțanov Dorel</Footer>*/}
+  <Footer style={{ textAlign: 'center' }}>Guțanov Dorel</Footer>
         </Layout>
   );
 }
