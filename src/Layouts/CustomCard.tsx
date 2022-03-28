@@ -1,12 +1,16 @@
-import {Card, Col, Input} from 'antd'
+import {Card, Checkbox, Col, Input} from 'antd'
 import { IContentModel} from "../interface/Interfaces";
 import {useRootStore} from "../index";
 import {observer} from "mobx-react-lite";
+import {useEffect} from "react";
 //CustomCard
 export const CustomCard=observer(({content}:{content:IContentModel}) => {
 
-    const {title,description,notite,changeNotes} =content
-    return (
+    const {title,description,notite,changeNotes,isSeen,changeSeen} =content
+    useEffect(()=>{
+alert('${isSeen}')
+        },[isSeen])
+        return (
 
             <Card title={title} bordered={false}>
                 {description}
@@ -14,8 +18,9 @@ export const CustomCard=observer(({content}:{content:IContentModel}) => {
                        placeholder={notite}
                        onChange={(e)=>changeNotes(e.target.value)}
                 />
-            </Card>
+                <Checkbox value={isSeen} onChange={(e)=>changeSeen(e.target.value)}/>
 
+            </Card>
 
     )
 }
