@@ -12,8 +12,10 @@ export const FormLayout =() =>{
       alert('Input:'+i)
     }
 
+useEffect(() =>{
 
-
+    },[]
+)
 
     return(
 
