@@ -8,7 +8,9 @@ export const CustomCard=observer(({content}:{content:IContentModel}) => {
 
     const {title,description,notite,changeNotes,isSeen,changeSeen} =content
     useEffect(()=>{
-alert('${isSeen}')
+        if(isSeen) {
+            alert(`Is seen ${ title }`)
+        }
         },[isSeen])
         return (
 
@@ -18,9 +20,10 @@ alert('${isSeen}')
                        placeholder={notite}
                        onChange={(e)=>changeNotes(e.target.value)}
                 />
-                <Checkbox value={isSeen} onChange={(e)=>changeSeen(e.target.value)}/>
+                <Checkbox defaultChecked={ isSeen } checked={isSeen} onChange={(e)=>changeSeen(e.target.checked)}/>
 
             </Card>
+
 
     )
 }
