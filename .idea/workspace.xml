@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c3ec28a7-ad48-4660-a097-6d8b0e3ec523" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/CustomCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/CustomCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,8 @@
       <workItem from="1647448345184" duration="1616000" />
       <workItem from="1647863834428" duration="1891000" />
       <workItem from="1648486901734" duration="13987000" />
-      <workItem from="1648544832243" duration="2491000" />
+      <workItem from="1648544832243" duration="4285000" />
+      <workItem from="1648560888653" duration="320000" />
     </task>
     <servers />
   </component>
