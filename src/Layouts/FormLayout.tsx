@@ -1,5 +1,5 @@
 import {Form, Input, Button, Menu} from 'antd';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {integer} from "mobx-state-tree/dist/types/primitives";
 import {FastBackwardOutlined} from "@ant-design/icons";
 export const FormLayout =() =>{
@@ -7,11 +7,16 @@ export const FormLayout =() =>{
     const[username,setusername]=useState('')
     const[email,setemail]=useState('')
     const[phone,setPhone]=useState('')
-
+    const[i,seti]=useState('')
     const ShowResult =()=>{
-        alert("User_Name:"+username+"\n"+"Email:"+email+"\n"+"Phone:"+phone)
-        console.log("User_Name:"+username+"\n"+"Email:"+email+"\n"+"Phone:"+phone)
+      alert('Input:'+i)
     }
+
+useEffect(() =>{
+
+    },[]
+)
+
     return(
 
         <Form
@@ -43,6 +48,11 @@ export const FormLayout =() =>{
                         style={{ width: '40%'}}
                 />
             </Form.Item>
+            <Form.Item style={{paddingLeft:'500px'}}
+                       label="inputvalue"  name="inputvalue"   rules={[{ required: true }]}>
+                     <input value={i} onChange={(e)=>seti(e.target.value)}
+                     />
+            </Form.Item>
 
             <Form.Item label=" ">
 
@@ -57,5 +67,6 @@ export const FormLayout =() =>{
         </Form>
     )
 }
+
 
 

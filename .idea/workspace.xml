@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c3ec28a7-ad48-4660-a097-6d8b0e3ec523" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/FormLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/FormLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/CustomCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/CustomCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -36,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/tw_utm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\Anu3_semestrul2\tweb\node_modules\typescript\lib" />
@@ -71,7 +68,16 @@
       <workItem from="1646046483692" duration="150000" />
       <workItem from="1646052488540" duration="5000" />
       <workItem from="1646052677083" duration="463000" />
-      <workItem from="1646503524384" duration="6786000" />
+      <workItem from="1646503524384" duration="7771000" />
+      <workItem from="1647011324093" duration="5825000" />
+      <workItem from="1647067847408" duration="3921000" />
+      <workItem from="1647265860832" duration="588000" />
+      <workItem from="1647345262042" duration="1249000" />
+      <workItem from="1647360364758" duration="695000" />
+      <workItem from="1647448345184" duration="1616000" />
+      <workItem from="1647863834428" duration="1891000" />
+      <workItem from="1648486901734" duration="13987000" />
+      <workItem from="1648544832243" duration="2491000" />
     </task>
     <servers />
   </component>
