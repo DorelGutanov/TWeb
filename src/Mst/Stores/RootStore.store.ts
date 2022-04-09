@@ -5,13 +5,11 @@ const RootStore =types.model('RootStore',{
     contents:types.array(ContentModel),
     })
     .actions(()=>({
-        setDatainLocalStorage(){
-            localStorage.setItem('StringState','string')
+        setDatainLocalStorage(value:any={}){
+            localStorage.setItem('StringState',JSON.stringify(value))
         },
         getDatafromLocalStorage(key:string ='StringState'){
-            const mystorage=localStorage.getItem(key)
-            console.log(mystorage)
-            return mystorage
+            return localStorage.getItem(key)
         },
         removemyLocalStorage(key:string ='StringState'){
             localStorage.removeItem(key)

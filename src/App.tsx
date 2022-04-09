@@ -26,8 +26,6 @@ function App() {
           }}>
   <Mycontent />
           </div>
-      {/*<h1 style={{textAlign:'center'}}>My Form</h1>*/}
-          {/*<FormLayout/>*/}
   <Footer style={{ textAlign: 'center' }}>Guțanov Dorel</Footer>
         </Layout>
   );
