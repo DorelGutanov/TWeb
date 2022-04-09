@@ -26,8 +26,10 @@ export const  ContentModel = types.model('ContentModel',{
         },
         addNoteValue(){
 const rootStore=getParentOfType(self,RootStore)
-            // console.log('Before',rootStore.content_notes_array)
 rootStore.addNote(self.id)
-            // console.log('After',rootStore.content_notes_array)
+        },
+        removeNote(){
+        const rootStore =getParentOfType(self,RootStore)
+        rootStore.removeNote(self.id)
         }
 }))

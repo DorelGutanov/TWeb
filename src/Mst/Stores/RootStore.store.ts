@@ -1,4 +1,4 @@
-import {types} from "mobx-state-tree";
+import {applySnapshot, types} from "mobx-state-tree";
 import {ContentModel} from "../Models/Content.model";
 
 const RootStore =types.model('RootStore',{
@@ -21,11 +21,25 @@ const RootStore =types.model('RootStore',{
     }))
 
     .actions((self)=>({
-        setInitialStorageValue(){
+        setInitialStorageValue() {
             self.setDatainLocalStorage(self.contents)
         },
-        addNote(id:string){
+        addNote(id: string) {
             self.content_notes_array.push(id)
+        },
+        removeNote(id: string) {
+            const updatesNotes = self.content_notes_array.filter((content) => {
+                if (content?.id !== id) {
+                    return true
+                } else {
+                    return false
+                }
+
+
+            })
+
+            // @ts-ignore
+            applySnapshot(self.content_notes_array,updatesNotes)
         }
     }))
 

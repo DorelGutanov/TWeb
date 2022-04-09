@@ -6,7 +6,7 @@ import {useEffect} from "react";
 //CustomCard
 export const CustomCard=observer(({content}:{content:IContentModel}) => {
 
-    const {title,description,notite,changeNotes,isSeen,changeSeen,addNoteValue} =content
+    const {title,description,notite,changeNotes,isSeen,changeSeen,addNoteValue,removeNote} =content
     useEffect(()=>{
         if(isSeen) {
             console.log(`Is seen ${ title }`)
@@ -21,7 +21,8 @@ export const CustomCard=observer(({content}:{content:IContentModel}) => {
                        onChange={(e)=>changeNotes(e.target.value)}
                 />
                 <Checkbox defaultChecked={ isSeen } checked={isSeen} onChange={(e)=>changeSeen(e.target.checked)}/>
-<Button onClick={addNoteValue}>Add value</Button>
+                 <Button onClick={addNoteValue}>Add value</Button>
+                <Button type={'primary'} onClick={removeNote}>Remove value</Button>
             </Card>
 
 
