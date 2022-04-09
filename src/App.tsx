@@ -13,9 +13,10 @@ import {useRootStore} from "./index";
 function App() {
     const roottoStore =useRootStore()
     useEffect(()=>{
-        roottoStore.setDatainLocalStorage()
-        roottoStore.getDatafromLocalStorage()
-        roottoStore.removemyLocalStorage()
+        roottoStore.setInitialStorageValue()
+        // roottoStore.setDatainLocalStorage()
+        // roottoStore.getDatafromLocalStorage()
+        // roottoStore.removemyLocalStorage()
     },[])
   return (
       <Layout>

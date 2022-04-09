@@ -1,14 +1,16 @@
 
-import {Breadcrumb, Row} from 'antd';
+import {Breadcrumb, Row,List} from 'antd';
 import {CustomCard} from './CustomCard';
 import {Content} from "antd/es/layout/layout";
 import {useRootStore} from "../index";
 import {IContentModel} from "../interface/Interfaces";
+import {NodeCollapseOutlined} from "@ant-design/icons";
+import {NoteValue} from "../Notes/NoteValue";
 
 
 
 export  const  Mycontent = () => {
-  const {contents} = useRootStore()
+  const {contents,content_notes_array} = useRootStore()
     // console.log(">>root_store",contents)
     return (
 
@@ -21,8 +23,21 @@ export  const  Mycontent = () => {
                     } )}
 
                 </Row>
-
+                <div>
+<List
+                        itemLayout="horizontal"
+                        dataSource={content_notes_array}
+                        renderItem={(content:any)=> (
+                            <List.Item>
+                              <NoteValue content={content}/>
+                            </List.Item>
+                        ) }
+                    />
+                </div>
             </div>
+
+
+
 
 
 

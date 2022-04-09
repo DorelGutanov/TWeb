@@ -4,6 +4,9 @@
     <list default="true" id="c3ec28a7-ad48-4660-a097-6d8b0e3ec523" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/CustomCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/CustomCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/Mycontent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/Mycontent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mst/Models/Content.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mst/Models/Content.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mst/Stores/RootStore.store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mst/Stores/RootStore.store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +84,7 @@
       <workItem from="1648544832243" duration="4285000" />
       <workItem from="1648560888653" duration="530000" />
       <workItem from="1648738449731" duration="36000" />
-      <workItem from="1649503531143" duration="3795000" />
+      <workItem from="1649503531143" duration="8788000" />
     </task>
     <servers />
   </component>
