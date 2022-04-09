@@ -9,7 +9,7 @@ import {IContentModel} from "../interface/Interfaces";
 
 export  const  Mycontent = () => {
   const {contents} = useRootStore()
-    console.log(">>root_store",contents)
+    // console.log(">>root_store",contents)
     return (
 
             <div className="site-layout-background" style={{ padding: 24, minHeight: 380 }}>

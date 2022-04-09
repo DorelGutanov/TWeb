@@ -9,7 +9,7 @@ export const CustomCard=observer(({content}:{content:IContentModel}) => {
     const {title,description,notite,changeNotes,isSeen,changeSeen} =content
     useEffect(()=>{
         if(isSeen) {
-            alert(`Is seen ${ title }`)
+            console.log(`Is seen ${ title }`)
         }
         },[isSeen])
         return (
