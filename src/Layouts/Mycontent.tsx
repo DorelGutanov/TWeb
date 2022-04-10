@@ -1,15 +1,11 @@
 
 import {Breadcrumb, Row,List} from 'antd';
 import {CustomCard} from './CustomCard';
-import {Content} from "antd/es/layout/layout";
 import {useRootStore} from "../index";
 import {IContentModel} from "../interface/Interfaces";
-import {NodeCollapseOutlined} from "@ant-design/icons";
 import {NoteValue} from "../Notes/NoteValue";
 import {observer} from "mobx-react-lite";
 import {useEffect} from "react";
-
-
 
 
 export  const  Mycontent = observer(() => {
