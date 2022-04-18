@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3ec28a7-ad48-4660-a097-6d8b0e3ec523" name="Changes" comment="" />
+    <list default="true" id="c3ec28a7-ad48-4660-a097-6d8b0e3ec523" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mst/Models/Content.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mst/Models/Content.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mst/Stores/RootStore.store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mst/Stores/RootStore.store.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +35,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Boaghi/tweb_boaghi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="D:\Anu3_semestrul2\tweb\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -79,6 +85,9 @@
       <workItem from="1648738449731" duration="36000" />
       <workItem from="1649503531143" duration="15605000" />
       <workItem from="1649612197979" duration="37000" />
+      <workItem from="1649612852676" duration="4656000" />
+      <workItem from="1649660320873" duration="8360000" />
+      <workItem from="1650279333836" duration="1893000" />
     </task>
     <servers />
   </component>

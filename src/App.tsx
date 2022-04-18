@@ -14,8 +14,8 @@ function App() {
     const roottoStore =useRootStore()
     useEffect(()=>{
         roottoStore.setInitialStorageValue()
-        // roottoStore.setDatainLocalStorage()
-        // roottoStore.getDatafromLocalStorage()
+        roottoStore.setDatainLocalStorage()
+        roottoStore.getDatafromLocalStorage()
         // roottoStore.removemyLocalStorage()
     },[])
   return (

@@ -7,7 +7,7 @@ const RootStore =types.model('RootStore',{
 
     })
     .actions((self)=>({
-        setDatainLocalStorage(value:any={}){
+        setDatainLocalStorage(value:string){
             localStorage.setItem('StringState',JSON.stringify(value))
         },
         getDatafromLocalStorage(key:string ='StringState'){
@@ -22,7 +22,11 @@ const RootStore =types.model('RootStore',{
 
     .actions((self)=>({
         setInitialStorageValue() {
-            self.setDatainLocalStorage(self.contents)
+            const obj={
+            }
+            let arr=new Array(" ")
+            self.setDatainLocalStorage(JSON.stringify(self.contents.pop()?.description))
+            console.log(JSON.stringify(self.contents.pop()?.description))
         },
         addNote(id: string) {
             self.content_notes_array.push(id)
