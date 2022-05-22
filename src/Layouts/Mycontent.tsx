@@ -6,7 +6,9 @@ import {IContentModel} from "../interface/Interfaces";
 import {NoteValue} from "../Notes/NoteValue";
 import {observer} from "mobx-react-lite";
 import {useEffect} from "react";
-
+import { Routes, Route } from 'react-router-dom'
+import { ROUTES } from '../Routes/Routes'
+import {FormLogin} from "./FormLogin";
 
 export  const  Mycontent = observer(() => {
   const {contents,content_notes_array} = useRootStore()
@@ -26,6 +28,8 @@ export  const  Mycontent = observer(() => {
 
                 </Row>
                 <div>
+
+
 <List
                         itemLayout="horizontal"
                         dataSource={content_notes_array}
