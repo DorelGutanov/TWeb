@@ -23,7 +23,7 @@ function App() {
           <FormLogin/>
               </div>
       {/*  <>*/}
-      {/*<HeaderLayout/>*/}
+      <HeaderLayout/>
       {/*    </>*/}
   {/*        <div style={{ padding: '100px 50px 50px 50px'*/}
   {/*        }}>*/}

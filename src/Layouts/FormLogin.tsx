@@ -58,9 +58,9 @@ export const FormLogin = () =>{
                 <div className="modal">
                     <h2>Login:</h2>
                     <label htmlFor="email">Username:</label>
-                    <input type="text" value={username} onChange={(e)=> {setUsername(e.target.value);}} placeholder="Insert your username" />
+                    <input type="text" value={username} onChange={(e)=> {setUsername(e.target.value);}} placeholder="Introduceți username" />
                     <label htmlFor="password">password:</label>
-                    <input type="password" value={password} onChange={(e)=> {setPassword(e.target.value);}} placeholder="Insert your password" />
+                    <input type="password" value={password} onChange={(e)=> {setPassword(e.target.value);}} placeholder="Introduceți password" />
                     <button className='Log_button' onClick={submitInfo}>Login</button>
 
                 </div>
