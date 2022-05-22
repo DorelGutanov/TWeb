@@ -32,29 +32,17 @@ function App() {
         return (
             <div className="App">
                 <Layout>
-                    {/*<div style={{*/}
-                    {/*    padding: '100px 50px 50px 50px'*/}
-                    {/*}}>*/}
-                    {/*    <FormLogin/>*/}
-                    {/*</div>*/}
-                    {/*  <>*/}
 
                     <HeaderLayout/>
-                    {/*    </>*/}
-                    {/*        <div style={{ padding: '100px 50px 50px 50px'*/}
-                    {/*        }}>*/}
-                    {/*<Mycontent />*/}
-                    {/*        </div>*/}
-                    {/*<h1 style={{textAlign:'center'}}>My Form</h1>*/}
-                    {/*<FormLayout/>*/}
+
                     <div className='site-layout-content'>
 
                         <Routes>
                             <Route path={ ROUTES[0].path } element={ <Home /> } />
-
+                            <Route path={ ROUTES[1].path } element={ <Mycontent/> } />
+                            <Route path={ ROUTES[2].path } element={ <FormLogin/> } />
                         </Routes>
                     </div>
-                    {/*<Mycontent/>*/}
                     <Footer style={{textAlign: 'center'}}>Guțanov Dorel</Footer>
                 </Layout>
             </div>

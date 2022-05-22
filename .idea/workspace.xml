@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c3ec28a7-ad48-4660-a097-6d8b0e3ec523" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/HeaderLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/HeaderLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/Mycontent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/Mycontent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,7 @@
       <workItem from="1649660320873" duration="8360000" />
       <workItem from="1650279333836" duration="1893000" />
       <workItem from="1653230985431" duration="4756000" />
-      <workItem from="1653252771316" duration="3675000" />
+      <workItem from="1653252771316" duration="4079000" />
     </task>
     <servers />
   </component>
